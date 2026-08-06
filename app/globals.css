@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  background: #f5f6f8;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: #f5f6f8;
+  color: #07152c;
+}
+
+::selection {
+  background: #e7252a;
+  color: #ffffff;
+}
+
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
+.brazil-map path {
+  transition: fill 360ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brazil-map path[id^="SP-"] {
+  fill: #0b1f3d !important;
+}
