@@ -39,7 +39,7 @@ export function Navigation() {
       >
         <a href="#inicio" aria-label="Solocontrol, início" className="focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">
           <motion.div animate={{ scale: condensed ? 0.86 : 1 }} className="origin-left">
-            <Image src="/logo_branca.png" alt="Solocontrol" width={198} height={52} priority className="h-9 w-auto sm:h-10" />
+            <Image src="/logo_branca_cropped.png" alt="Solocontrol" width={133} height={135} priority className="h-9 w-auto sm:h-10" />
           </motion.div>
         </a>
         <div className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 border border-white/10 bg-white/[0.04] p-1 text-[13px] font-medium text-white/65 lg:flex">

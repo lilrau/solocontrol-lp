@@ -38,11 +38,11 @@ export function Cta() {
             <span className="h-1.5 w-1.5 bg-[#e7252a]" />
           </div>
           <Image
-            src="/logo_branca.png"
+            src="/logo_branca_cropped.png"
             alt=""
-            width={520}
-            height={137}
-            className="h-auto w-[min(72vw,32rem)]"
+            width={133}
+            height={135}
+            className="h-auto w-[min(40vw,12rem)]"
           />
           <div className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-3">
             <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-white/45">Continue</span>

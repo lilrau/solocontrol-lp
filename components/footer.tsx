@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="bg-[#07152c] px-6 py-14 text-white sm:px-12">
       <div className="mx-auto flex max-w-[1400px] flex-col justify-between gap-12 md:flex-row">
         <div>
-          <Image src="/logo_branca.png" alt="Solocontrol" width={198} height={52} className="h-11 w-auto" />
+          <Image src="/logo_branca_cropped.png" alt="Solocontrol" width={133} height={135} className="h-11 w-auto" />
           <p className="mt-7 max-w-xs text-sm leading-relaxed text-white/55">Engenharia e consultoria para controle tecnológico.</p>
         </div>
         <address className="grid gap-2 text-sm not-italic leading-relaxed text-white/60">
